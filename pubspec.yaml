@@ -1,0 +1,19 @@
+name: dart_pipeline
+description: >-
+  A library that facilitates seamless object passing between classes and performing various tasks. Perform complex operations and retrieve the final result upon task completion.
+version: 1.0.0
+homepage: https://github.com/mi-sch-ka
+repository: https://github.com/mi-sch-ka/dart-pipeline
+issue_tracker: https://github.com/mi-sch-ka/dart-pipeline/issues
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
