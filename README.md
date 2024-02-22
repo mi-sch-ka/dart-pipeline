@@ -1,9 +1,18 @@
 <img src="https://github.com/mi-sch-ka/dart-pipeline/blob/main/.github/thumbnail.png?raw=true"/>
 
+## Overview
+
 The `dart-pipeline` library offers a seamless way to pass an object between multiple classes and execute various tasks on it.
 This fluid process allows you to perform complex operations and obtain the final result once all the tasks have been completed.
 
-# How to use
+## What is Pipeline?
+
+The Pipeline class is implemented based on the [Chain of Responsibility](https://refactoring.guru/design-patterns/chain-of-responsibility) design pattern. 
+This design promotes flexibility and scalability in task handling by decoupling senders and receivers of requests.
+
+In summary; the pipelines take a job, process it, and forward it to the next pipeline.
+
+## How to use
 
 ### Pipeline with Functions
 
